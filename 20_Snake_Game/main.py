@@ -11,6 +11,12 @@ screen.tracer()
 
 
 snake = Snake()
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right ")
+
 
 # TODO: 1-CREATE A SNAKE BODY
 ## Three turtles in square shape lined
