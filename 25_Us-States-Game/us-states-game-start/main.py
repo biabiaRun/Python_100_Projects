@@ -38,7 +38,7 @@ while count < 50:
                 missing_state.append(state)
         # learn_data = pandas.DataFrame(missing_state)
         # learn_data.to_csv("learn.csv")
-        pandas.Series(missing_state).to_csv("try.csv")
+        # result = [i for i in state_names if i not in guessed_state]
 
         break
 
